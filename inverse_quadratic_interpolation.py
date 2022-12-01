@@ -29,8 +29,8 @@ def inverse_quadratic_interpolation():
         print("e_n = " + str(abs(x - sol())))
         if (not len(errors) == 0):
             print("e_n / e_(n-1) = " + str(error / errors[n - 1]))
-            print("e_n / e_(n-1) = " + str(error / (errors[n - 1])**2))
-            print("e_n / e_(n-1) = " + str(error / (errors[n - 1])**3) + "\n")
+            print("e_n / e_(n-1)^2 = " + str(error / (errors[n - 1])**2))
+            print("e_n / e_(n-1)^3 = " + str(error / (errors[n - 1])**3) + "\n")
         else:
             print()
         errors.append(error)
