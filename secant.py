@@ -37,7 +37,7 @@ def secant():
         x0 = x1
         x1 = x
         n += 1
-
+    print("x_n = " + str(x))
  
 if __name__ == "__main__":
     secant()

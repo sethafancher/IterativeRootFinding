@@ -39,6 +39,7 @@ def bisection():
         else:
             a = x
         n += 1
+    print("x_n = " + str(x))
 
 if __name__ == "__main__":
     bisection()

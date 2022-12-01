@@ -33,6 +33,6 @@ def steffensen():
         g = ((func(x + func(x))) / func(x)) - 1
         x = x - (func(x)/g)
         n += 1
-
+    print("x_n = " + str(x))
 if __name__ == "__main__":
     steffensen()

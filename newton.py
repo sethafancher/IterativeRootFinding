@@ -37,6 +37,6 @@ def newton():
         h = func(x)/derivFunc(x) 
         x = x - h
         n += 1
-
+    print("x_n = " + str(x))
 if __name__ == "__main__":
     newton()

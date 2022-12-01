@@ -44,6 +44,7 @@ def inverse_quadratic_interpolation():
         x = L0 + L1 + L2
         x0, x1, x2 = x, x0, x1
         n += 1
+    print("x_n = " + str(x))
 
 if __name__ == "__main__":
     inverse_quadratic_interpolation()
